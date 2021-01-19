@@ -7,7 +7,6 @@ NLP에서 흔히하는 전처리는 소문자 변환, 앞뒤 필요없는 띄어
 이번 숙제에서는 텍스트 처리 방법을 파이썬으로 배워보겠습니다. 
 """
 
-
 def normalize(input_string):
     copy_string = input_string
     lower_string = copy_string.lower()
